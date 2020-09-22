@@ -83,9 +83,22 @@ function getSummary(character) {
  * Sum the total cost in credits for all vehicles defined on the input character.
  * Sample data expected output: 8000
 */
+// function getVehiclesCostInCreditsSumTotal(character) {
+//   // TODO: Add your code here.
+//   let sum = 0;
+//   for (let i = 0; i > character.length; i++){
+//     sum += character[i].cost_in_credits;
+//   }
+//   return sum;
+// }
+
 function getVehiclesCostInCreditsSumTotal(character) {
   // TODO: Add your code here.
+  let sum = character.reduce(function(acc, item){
+    return acc + item.cost_in_credits
+  }, 0);
 }
+
 
 /**
  * ### Challenge `getStarshipPassengerAndCrewSumTotal`
@@ -99,6 +112,7 @@ function getVehiclesCostInCreditsSumTotal(character) {
 */
 function getStarshipPassengerAndCrewSumTotal(character) {
   // TODO: Add your code here.
+
 }
 
 /**
@@ -116,6 +130,7 @@ function getStarshipPassengerAndCrewSumTotal(character) {
 */
 function getNthFilm(character, filmNumber) {
   // TODO: Add your code here.
+
 }
 
 /**
