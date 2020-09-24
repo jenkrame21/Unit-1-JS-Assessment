@@ -84,13 +84,9 @@ function getSummary(character) {
  * Sample data expected output: 8000
 */
 
-// Pay close attention to array vs. object syntax (vehicles[0].name vs. character.vehicles.)
-
-
-// function getStarshipPassengerAndCrewSumTotal(acc, character) {
-//   // TODO: Add your code here.
-//   let characterStarshipTotal = 
-// }
+function getVehiclesCostInCreditsSumTotal(character){
+  // TODO: Add your code here.
+}
 
 
 /**
@@ -105,7 +101,6 @@ function getSummary(character) {
 */
 function getStarshipPassengerAndCrewSumTotal(character) {
   // TODO: Add your code here.
-
 }
 
 /**
@@ -122,6 +117,11 @@ function getStarshipPassengerAndCrewSumTotal(character) {
  * Given film #7, expected error: `There are only 3 Star Wars movies. Flan fiction excluded.`
 */
 
+function getNthFilm(character, filmNumber){
+  // TODO: Add your code here.
+}
+
+// Code I came up with but no success
 // function getNthFilm(character, filmNumber) {
 //   // TODO: Add your code here.
 //   let filmNumber = 0;
@@ -161,8 +161,14 @@ function getCargoCapacityTotal(character) {
 */
 function getFastestStarshipName(character) {
   // TODO: Add your code here.
-  
 }
+
+// No success
+// function getFastestStarshipName(character) {
+//   for (let i = 0; i < character.length; i++){
+//     character.starship[i].max_atmosphering_speed 
+//   }
+// }
 
 /**
  * ### Challenge `getLargestCargoStarshipModelName`
