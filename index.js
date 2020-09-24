@@ -83,21 +83,14 @@ function getSummary(character) {
  * Sum the total cost in credits for all vehicles defined on the input character.
  * Sample data expected output: 8000
 */
-// function getVehiclesCostInCreditsSumTotal(character) {
-//   // TODO: Add your code here.
-//   let sum = 0;
-//   for (let i = 0; i > character.length; i++){
-//     sum += character[i].cost_in_credits;
-//   }
-//   return sum;
-// }
 
-function getVehiclesCostInCreditsSumTotal(character) {
-  // TODO: Add your code here.
-  let sum = character.reduce(function(acc, item){
-    return acc + item.cost_in_credits
-  }, 0);
-}
+// Pay close attention to array vs. object syntax (vehicles[0].name vs. character.vehicles.)
+
+
+// function getStarshipPassengerAndCrewSumTotal(acc, character) {
+//   // TODO: Add your code here.
+//   let characterStarshipTotal = 
+// }
 
 
 /**
@@ -128,10 +121,18 @@ function getStarshipPassengerAndCrewSumTotal(character) {
  * Given film #1, expected output: `A New Hope`
  * Given film #7, expected error: `There are only 3 Star Wars movies. Flan fiction excluded.`
 */
-function getNthFilm(character, filmNumber) {
-  // TODO: Add your code here.
 
-}
+// function getNthFilm(character, filmNumber) {
+//   // TODO: Add your code here.
+//   let filmNumber = 0;
+//   for (let i = 0; i < character.length; i++){
+//     if (character[i].title < 4)
+//     character[i].title
+//   } else {
+//     `The Never Ending Story`)
+//   }
+//   return filmNumber
+// }
 
 /**
  * ### Challenge `getCargoCapacityTotal`
@@ -160,6 +161,7 @@ function getCargoCapacityTotal(character) {
 */
 function getFastestStarshipName(character) {
   // TODO: Add your code here.
+  
 }
 
 /**
